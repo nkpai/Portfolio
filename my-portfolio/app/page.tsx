@@ -1,5 +1,6 @@
 import React, { Dispatch, SetStateAction, useRef, useState } from "react";
 import { motion } from "framer-motion"
+
 import { Nav } from "@/lib/Nav";
 
 
@@ -10,6 +11,9 @@ export default function Home() {
         <Nav />
       </div>
 
+    <body className="bg-black">
+      
+    </body>
       
 
 
