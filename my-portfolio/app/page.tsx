@@ -5,18 +5,19 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
-    <main className="relative flex justify-center items-end flex-col overflow-hidden mx-auto sm:px-10 px-5 font-light bg-black">
-      <div className="bg-black">
-        <Navi />
-       <div className="absolute top-0 pr-200">
-
-       </div>
+    <main className=" bg-black">
+       <body className="bg-black">
+        <div className="absolute top-0 right-0 z-0">
+          <Navi />
+        </div>
+        <div className="flex items-center justify-center h-screen">
+          <div className="">
+              <h1 className="text-5xl  text-white"> Nathan Levine-Kpai </h1>
+          </div>
+        </div>
+     </body>
      
-      
-
-
-
-     </div>
+       
     </main>
   );
 }

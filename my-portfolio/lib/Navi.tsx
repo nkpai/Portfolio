@@ -29,7 +29,7 @@ const SlideTabs = () => {
       }}
       className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-black p-1"
     >
-      <Tab setPosition={setPosition}>Qualifications</Tab>
+      <Tab setPosition={setPosition}>About</Tab>
       <Tab setPosition={setPosition}>Projects</Tab>
       <Tab setPosition={setPosition}>Contact</Tab>
       <Tab setPosition={setPosition}><FaGithub className="text-2xl" /></Tab>
