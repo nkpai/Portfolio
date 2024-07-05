@@ -27,7 +27,7 @@ const SlideTabs = () => {
           opacity: 0,
         }));
       }}
-      className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-black p-1"
+      className=" relative mx-auto flex w-fit rounded-full border-2 border-black bg-black p-1"
     >
       <Tab setPosition={setPosition}>About</Tab>
       <Tab setPosition={setPosition}>Projects</Tab>
@@ -64,7 +64,7 @@ const Tab = ({
           opacity: 1,
         });
       }}
-      className="relative z-10 block cursor-pointer px-3 py-1.5 tracking-wide text-white mix-blend-difference md:px-5 md:py-1 md:text-lg font-normal transition duration-1000 ease-in-out"
+      className="relative z-10 block cursor-pointer px-3 py-1.5 tracking-wide text-white mix-blend-difference md:px-5 md:py-1 md:text-lg font-bold transition duration-1000 ease-in-out"
     >
       {children}
     </li>
