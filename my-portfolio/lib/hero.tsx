@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-      <section className="max-w-8xl min-h-screen mx-auto bg-base flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20 bg-gunmetal">
+      <section className="max-w-8xl min-h-screen mx-auto bg-base flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20 bg-main bg-no-repeat bg-cover">
         <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start pb-80">
          
           <h1 className="font-extrabold text-4xl lg:text-7xl tracking-tight md:-mb-4 text-white -mt-80  ">

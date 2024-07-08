@@ -1,6 +1,6 @@
 import React, {  } from "react";
 import { Suspense } from 'react'
-import { Navi } from "@/lib/Navi";
+import { Navi } from "@/components/Navi";
 import { motion } from "framer-motion"
 import Hero from "@/lib/hero";
 import About from "@/lib/about";

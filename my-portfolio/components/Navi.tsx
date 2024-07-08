@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const Navi = () => {
   return (
-    <div className="bg-gunmetal py-5">
+    <div className=" ">
       <SlideTabs />
     </div>
   );
@@ -34,7 +34,7 @@ const SlideTabs = () => {
           opacity: 0,
         }));
       }}
-      className="absolute lg:right-0 flex w-fit rounded-full border-2 border-gunmetal bg-gunmetal p-1"
+      className="absolute lg:right-0 flex w-fit rounded-full p-5"
     >
       <Tab setPosition={setPosition}>About</Tab>
       <Tab setPosition={setPosition}>Projects</Tab>
@@ -84,7 +84,7 @@ const Cursor = ({ position }: { position: Position }) => {
       animate={{
         ...position,
       }}
-      className="absolute z-0 h-7 rounded-full bg-charcoal md:h-10"
+      className="absolute z-0 h-7 rounded-full bg-sunset md:h-10"
     />
   );
 };
