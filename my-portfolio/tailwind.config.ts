@@ -12,12 +12,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage:{
-        'main' : " url('/liquid-cheese (1).svg')",
+        'main' : " url('/flat-mountains.svg')",
       },
       colors: {
-        'gunmetal' : '#323451',
+        'gunmetal' : '#121420',
         'charcoal' : '#34495B',
-        'afblue' : '#6486A6',
+        'afblue' : '#7681D6',
         'sunset' : '#F49D37',
        
       },

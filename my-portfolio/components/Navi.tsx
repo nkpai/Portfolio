@@ -84,7 +84,7 @@ const Cursor = ({ position }: { position: Position }) => {
       animate={{
         ...position,
       }}
-      className="absolute z-0 h-7 rounded-full bg-sunset md:h-10"
+      className="absolute z-0 h-9 rounded-full bg-afblue md:h-10"
     />
   );
 };

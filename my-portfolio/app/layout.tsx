@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Work_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const work = Work_Sans({ subsets: ["latin"] });
+const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nathan's Portfolio",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={work.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
