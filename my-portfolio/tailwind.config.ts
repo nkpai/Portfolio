@@ -18,7 +18,7 @@ const config: Config = {
         'gunmetal' : '#121420',
         'charcoal' : '#34495B',
         'afblue' : '#7681D6',
-        'sunset' : '#F49D37',
+        'linepink' : '#BA4C83',
        
       },
       animation: {

@@ -37,11 +37,10 @@ const SlideTabs = () => {
       className="absolute lg:right-0 flex w-fit rounded-full p-5"
     >
       <Tab setPosition={setPosition}>About</Tab>
-      <Tab setPosition={setPosition}>Projects</Tab>
+      <Tab setPosition={setPosition}>Resume</Tab>
       <Tab setPosition={setPosition}>Contact</Tab>
       <Tab setPosition={setPosition}><FaGithub className="text-2xl" onClick={handleTabClick}/></Tab>
-      <Tab setPosition={setPosition}><FaLinkedin className="text-2xl" onClick={handleLinkedClick} />
-      </Tab>
+      <Tab setPosition={setPosition}><FaLinkedin className="text-2xl" onClick={handleLinkedClick} />  </Tab>
 
       <Cursor position={position} />
     </ul>
@@ -84,7 +83,7 @@ const Cursor = ({ position }: { position: Position }) => {
       animate={{
         ...position,
       }}
-      className="absolute z-0 h-9 rounded-full bg-afblue md:h-10"
+      className="absolute z-0 h-9 rounded-full bg-charcoal md:h-10"
     />
   );
 };
@@ -94,3 +93,4 @@ type Position = {
   width: number;
   opacity: number;
 };
+

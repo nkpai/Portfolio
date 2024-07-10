@@ -6,7 +6,7 @@ const Hero = () => {
           <h1 className="font-extrabold text-4xl lg:text-7xl tracking-tight md:-mb-4 text-white -mt-80  ">
             Nathan Levine-Kpai.
           </h1>
-          <h2 className="font-extrabold text-2xl lg:text-4xl tracking-tight md:-mb-4 text-white -mt-5" >
+          <h2 className="font-extrabold text-2xl lg:text-4xl tracking-tight md:-mb-4 text-white -mt-5 opacity-70" >
             Full Stack Developer.
           </h2>
     
