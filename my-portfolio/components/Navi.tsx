@@ -4,9 +4,13 @@ import { FaLinkedin } from "react-icons/fa";
 import React, { Dispatch, SetStateAction, useRef, useState,  } from "react";
 import { motion } from "framer-motion";
 
+import SvgFav from "@/public/favicon";
+
 export const Navi = () => {
   return (
-    <div className=" ">
+    
+    <div className="animate-opacity">
+       <div className="absolute flex p-5 pt-7"> <SvgFav /> </div>
       <SlideTabs />
     </div>
   );
@@ -27,6 +31,7 @@ const SlideTabs = () => {
   });
 
   return (
+    
     <ul
       onMouseLeave={() => {
         setPosition((pv) => ({
@@ -36,6 +41,7 @@ const SlideTabs = () => {
       }}
       className="absolute lg:right-0 flex w-fit rounded-full p-5"
     >
+      
       <Tab setPosition={setPosition}>About</Tab>
       <Tab setPosition={setPosition}>Resume</Tab>
       <Tab setPosition={setPosition}>Contact</Tab>
@@ -83,7 +89,7 @@ const Cursor = ({ position }: { position: Position }) => {
       animate={{
         ...position,
       }}
-      className="absolute z-0 h-9 rounded-full bg-charcoal md:h-10"
+      className="absolute z-0 h-9 rounded-full bg-charcoal"
     />
   );
 };

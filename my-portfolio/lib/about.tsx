@@ -35,13 +35,13 @@ const About = () => {
 
                 </h3>
                 <p className="text-white font-weight-500 text-xl leading-relaxed grid grid-rows-4 grid-flow-col pt-3">
-                    <div className="flex ">- <SvgTs className="ml-3"/> TypeScript</div> 
-                    <div className="flex ">- <SvgTail className="ml-3"/> Tailwind</div>
-                    <div className="flex ">- <SvgNode className="ml-3" /> NodeJS</div>
-                    <div className="flex ">- <SvgReact className="ml-3"/> React</div>
-                    <div className="flex ">- <SvgPython className="ml-3"/> Python</div>
-                    <div className="flex ">- <SvgSupa  className="ml-3" /> Supabase</div>
-                    <div className="flex ">- <Svgnext className="ml-3"/> NextJS</div>
+                    <div className="flex ">- <SvgTs className="ml-3 mr-1"/> TypeScript</div> 
+                    <div className="flex ">- <SvgTail className="ml-3  mr-1"/> Tailwind</div>
+                    <div className="flex ">- <SvgNode className="ml-3 mr-1" /> NodeJS</div>
+                    <div className="flex ">- <SvgReact className="ml-3 mr-1"/> React</div>
+                    <div className="flex ">- <SvgPython className="ml-3 mr-1"/> Python</div>
+                    <div className="flex ">- <SvgSupa  className="ml-3 mr-1" /> Supabase</div>
+                    <div className="flex ">- <Svgnext className="ml-3 mr-1"/> NextJS</div>
 
                      
 

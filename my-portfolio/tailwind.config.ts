@@ -22,7 +22,7 @@ const config: Config = {
        
       },
       animation: {
-        opacity: "opacity 0.25s ease-in-out",
+        opacity: "opacity 0.8s ease-in-out",
         appearFromRight: "appearFromRight 300ms ease-in-out",
         wiggle: "wiggle 1.5s ease-in-out infinite",
         popup: "popup 0.25s ease-in-out",
