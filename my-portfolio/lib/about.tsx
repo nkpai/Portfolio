@@ -29,7 +29,7 @@ const About = () => {
                     
 
                 </p>
-                <h3 className="text-white font-extrabold text-5xl tracking-wide pt-5">
+                <h3 className="text-white font-extrabold text-5xl pt-5">
                     Techstack and Skills
         
 
