@@ -16,6 +16,7 @@ const config: Config = {
       },
       colors: {
         'gunmetal' : '#121420',
+        'gunmetal2' : '#1d223e',
         'charcoal' : '#34495B',
         'afblue' : '#7681D6',
         'linepink' : '#BA4C83',

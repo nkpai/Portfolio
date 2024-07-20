@@ -11,7 +11,7 @@ const Hero = () => {
           </h2>
     
           <button className="font-bold text-black transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-grey-300 duration-300 rounded-full px-5 py-2.5 me-2 mb-2 ">
-            Projects
+            Resume
           </button>
   
          

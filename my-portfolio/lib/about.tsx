@@ -16,7 +16,7 @@ const About = () => {
                     <HamburgerIcon />
         
              </h1>
-            <div className="items-center bg-charcoal p-20 rounded-3xl">
+            <div className="items-center  bg-gradient-to-t from-gunmetal2 to-charcoal p-20 rounded-3xl">
                
                 <h2 className="text-white font-extrabold text-5xl tracking-wide pb-3">
                     Education

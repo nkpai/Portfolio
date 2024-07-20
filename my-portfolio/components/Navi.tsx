@@ -43,7 +43,7 @@ const SlideTabs = () => {
     >
       
       <Tab setPosition={setPosition}>About</Tab>
-      <Tab setPosition={setPosition}>Resume</Tab>
+      <Tab setPosition={setPosition}>Projects</Tab>
       <Tab setPosition={setPosition}>Contact</Tab>
       <Tab setPosition={setPosition}><FaGithub className="text-2xl" onClick={handleTabClick}/></Tab>
       <Tab setPosition={setPosition}><FaLinkedin className="text-2xl" onClick={handleLinkedClick} />  </Tab>

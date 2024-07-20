@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <Suspense>
-      <Navi />
+   
     </Suspense>
     <main>
       <Hero />
