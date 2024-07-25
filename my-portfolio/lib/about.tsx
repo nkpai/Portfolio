@@ -10,21 +10,21 @@ import SvgSupa from "@/public/supasvg";
 
 const About = () => {
     return (
-        <section className="max-w-8xl mx-auto bg-base flex flex-col items-center justify-center gap-10 lg:gap-20 px-8 py-8 lg:py-20 bg-gunmetal">
-             <h1 className="text-white font-extrabold text-7xl">
+        <section className="max-w-8xl mx-auto bg-base flex flex-col items-center justify-center gap-10 lg:gap-20 px-8 py-8 lg:py-20 bg-gunmetal ">
+             <h1 className="text-white font-extrabold text-7xl animate-fadeDown">
                     About
                     <HamburgerIcon />
         
              </h1>
-            <div className="items-center  bg-gradient-to-t from-gunmetal2 to-charcoal p-20 rounded-3xl">
+            <div className="items-center  bg-gradient-to-t from-gunmetal2 to-charcoal p-20 rounded-3xl animate-fadeDown">
                
                 <h2 className="text-white font-extrabold text-5xl tracking-wide pb-3">
                     Education
                     
                 </h2>
-                <p className="text-white font-weight-500 text-xl leading-relaxed">
-                    <div>-Bachelor of Arts in Economics</div>
-                    <div>-IBM Full Stack Developer Certificates</div>
+                <p className=" text-white font-weight-500 text-xl leading-relaxed">
+                    <span className="block">-Bachelor of Arts in Economics</span>
+                    -IBM Full Stack Developer Certificates
                     
                     
 

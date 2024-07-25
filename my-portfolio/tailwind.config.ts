@@ -11,6 +11,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        fadeIn: {
+           "0%": {
+              opacity: "0",
+           },
+           "100%": {
+              opacity: "1",
+           },
+        },
+        appearFromRight: {
+          '0%': { opacity: '0', transform: 'translateX(10%)' },
+          '100%': { opacity: '0.7', transform: 'translateX(0)' },
+        },
+
+          fadeDown: {
+            '0%': { opacity: '0', transform: 'translateY(10%)' },
+            '100%': { opacity: '0.7', transform: 'translateY(0)' },
+           }
+        
+
+      },
       backgroundImage:{
         'main' : " url('/flat-mountains.svg')",
       },
@@ -23,13 +44,22 @@ const config: Config = {
        
       },
       animation: {
-        opacity: "opacity 0.8s ease-in-out",
-        appearFromRight: "appearFromRight 300ms ease-in-out",
+        fadeIn: "fadeIn 1s ease-in-out",
+        appearFromRight: "appearFromRight 1s ease-in-out",
         wiggle: "wiggle 1.5s ease-in-out infinite",
         popup: "popup 0.25s ease-in-out",
         shimmer: "shimmer 3s ease-out infinite alternate",
+        fadeDown: "fadeDown 1s ease-in-out"
 
-      }
+      },
+
+      animationDelay: {
+        '1s': '1s',
+        '1.5s': '1.5s',
+        '2s': '2s',
+        // add more delay times if needed
+      },
+      
     },
     screens:{
       sm:"640px",
@@ -39,9 +69,10 @@ const config: Config = {
       
     }
 
+   
     
   },
-  plugins: [],
+  plugins: [ require("tailwindcss-animation-delay"),],
 };
 
 
