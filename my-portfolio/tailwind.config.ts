@@ -1,13 +1,20 @@
-import type { Config } from "tailwindcss";
-import { DEFAULT_CIPHERS } from "tls";
 
-const config: Config = {
+
+module.exports = {
+  contents: {
+    relative: true,
+    transform: (contents: string) => contents.replace(/taos:/g, ''),
+    files: ['./src/*.{html,js}'],
+  },
+  
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./lib/**/*.{js,ts,jsx,tsx,mdx}",
     "./styles/globals.css",
+    "./src/*.{html,js}"
+      
   ],
   theme: {
     extend: {
@@ -44,8 +51,8 @@ const config: Config = {
        
       },
       animation: {
-        fadeIn: "fadeIn 1s ease-in-out",
-        appearFromRight: "appearFromRight 1s ease-in-out",
+        fadeIn: "fadeIn 1s ease-out forwards",
+        appearFromRight: "appearFromRight 1s ease-in-out forwards",
         wiggle: "wiggle 1.5s ease-in-out infinite",
         popup: "popup 0.25s ease-in-out",
         shimmer: "shimmer 3s ease-out infinite alternate",
@@ -72,9 +79,14 @@ const config: Config = {
    
     
   },
-  plugins: [ require("tailwindcss-animation-delay"),],
+  plugins: [ require("tailwindcss-animation-delay"),('taos/plugin'),],
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ],
+  
 };
 
 
-export default config;
 
