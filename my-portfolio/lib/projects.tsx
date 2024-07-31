@@ -14,7 +14,7 @@ const Project = () => {
         
         </h1>
 
-        <div className=" relative bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] justify-center w-[1000px] items-center ">
+        <div className=" relative bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] lg:w-[1000px] justify-center items-center md:w-[430px]">
             <h2 className=" text-white font-extrabold text-5xl tracking-wide pb-5 p-10 opacity-90">
                 Project 1
             </h2>
@@ -26,7 +26,7 @@ const Project = () => {
             </p>
         </div>
 
-        <div className=" relative bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] justify-center w-[1000px] items-center ">
+        <div className=" relative bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] justify-center lg:w-[1000px] items-center  md:w-[430px]">
             <h2 className=" text-white font-extrabold text-5xl tracking-wide pt-10 pl-10 pb-5 opacity-90">
                 Project 1
             </h2>
@@ -39,7 +39,7 @@ const Project = () => {
           
         </div>
 
-        <div className=" relative  bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] justify-center w-[1000px] items-center ">
+        <div className=" relative  bg-gradient-to-t from-gunmetal2 to-charcoal rounded-3xl h-[300px] justify-center lg:w-[1000px] items-center  md:w-[430px]">
             <h2 className=" text-white font-extrabold text-5xl tracking-wide pb-5 p-10 opacity-90">
                 Project 1
             </h2>

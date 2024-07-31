@@ -16,25 +16,25 @@ const About = () => {
                 <HamburgerIcon />
 
             </h1>
-            <div className="items-center  bg-gradient-to-t from-gunmetal2 to-charcoal p-20 rounded-3xl animate-fadeDown">
+            <div className="items-center  bg-gradient-to-t from-gunmetal2 to-charcoal lg:p-20 rounded-3xl animate-fadeDown transform">
 
-                <h2 className="text-white font-extrabold text-5xl tracking-wide pb-3">
+                <h2 className="text-white font-extrabold text-5xl tracking-wide pb-3  sm:scale-70">
                     Education
 
                 </h2>
-                <p className=" text-white font-weight-500 text-xl leading-relaxed">
+                <p className=" text-white font-weight-500 text-xl leading-relaxed  sm:scale-70">
                     <span className="block">-Bachelor of Arts in Economics</span>
                     -IBM Full Stack Developer Certificates
 
 
 
                 </p>
-                <h3 className="text-white font-extrabold text-5xl pt-5">
+                <h3 className="text-white font-extrabold text-5xl pt-5  sm:scale-70">
                     Techstack and Skills
 
 
                 </h3>
-                <p className="text-white font-weight-500 text-xl leading-relaxed grid grid-rows-4 grid-flow-col pt-3">
+                <p className="text-white font-weight-500 text-xl leading-relaxed grid grid-rows-4 grid-flow-col pt-3  sm:scale-70">
                     <div className="flex ">- <SvgTs className="ml-3 mr-1" /> TypeScript</div>
                     <div className="flex ">- <SvgTail className="ml-3  mr-1" /> Tailwind</div>
                     <div className="flex ">- <SvgNode className="ml-3 mr-1" /> NodeJS</div>
